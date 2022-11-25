@@ -2,9 +2,9 @@
   "name": "micon",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/configcreator.mjs",
+  "main": "./index.mjs",
   "scripts": {
-    "micon": "/src/linkbuildr.mjs"
+    "micon": "index.mjs"
   },
   "repository": {
     "type": "git",
