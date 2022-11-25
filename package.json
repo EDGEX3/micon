@@ -4,7 +4,7 @@
   "description": "",
   "main": "./index.mjs",
   "bin": {
-    "micon":"./bin/index.mjs"
+    "micon":"./nbin/index.mjs"
   },
   "scripts": {
     "micon": "index.mjs"
