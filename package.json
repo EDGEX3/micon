@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "./index.mjs",
+  "bin": {
+    "micon":"./bin/index.mjs"
+  },
   "scripts": {
     "micon": "index.mjs"
   },

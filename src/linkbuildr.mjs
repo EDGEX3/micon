@@ -1,5 +1,5 @@
 import object from '../icon.config.json' assert {type: 'json'};
-const link =(name)=>{
+const linkr =(name)=>{
     return object.mainpath+"/"+ object.icon[`${name}`];
 }
-export default link;
+export default linkr;

@@ -3,11 +3,10 @@ clear();
 //import
 import inquirer from "inquirer";
 import { clear } from "node:console";
-import fs, { link } from "node:fs";
-import fp from "node:path";
+import fs from "node:fs";
 import { exit } from "node:process";
 //main
-const config = process.cwd() + "\\" + "icon.config.json";
+//const config = process.cwd() + "\\" + "icon.config.json";
 let count = 0;
 //check
 const check = (file) => {
@@ -29,6 +28,11 @@ inquirer
   .prompt([
     {
       type: "input",
+      name: "cpath",
+      message: "enter icon config create path",
+    },
+    {
+      type: "input",
       name: "fpath",
       message: "enter icon folder path",
     },
@@ -41,6 +45,7 @@ inquirer
   .then((ans) => {
     const input = ans.fpath;
     const hlink = ans.rpath
+    const config = ans.cpath + "\\" + "icon.config.json";
     const epath = "./"+hlink.replace('\\','/')
     const iconobj = {
       icon: {},
