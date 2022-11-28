@@ -1,6 +1,6 @@
 # micon
 
-bulk icon,img,video impoter.⚡
+## bulk icon,img,video impoter.⚡
 
 1 first create <filename>.mjs 
 2 copy this code and pest .mjs file
