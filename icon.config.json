@@ -1,8 +1,0 @@
-{
-    "icon": {
-        "index": "index.svg",
-        "w": "w.svg"
-    },
-    "count": 2,
-    "mainpath": "./test/icon"
-}
