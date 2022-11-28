@@ -6,7 +6,7 @@ import { clear } from "node:console";
 import fs from "node:fs";
 import { exit } from "node:process";
 //main
-//const config = process.cwd() + "\\" + "icon.config.json";
+const config = process.cwd() + "\\" + "icon.config.json";
 let count = 0;
 //check
 const check = (file) => {
