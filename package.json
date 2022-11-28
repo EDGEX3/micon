@@ -1,5 +1,5 @@
 {
-  "name": "micon",
+  "name": "@himanshu33r/micon",
   "version": "1.0.0",
   "description": "",
   "main": "./index.mjs",
@@ -16,6 +16,10 @@
   "keywords": [
     "micon"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "dom",
   "license": "ISC",
   "bugs": {

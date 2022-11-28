@@ -46,7 +46,7 @@ inquirer
     const input = ans.fpath;
     const hlink = ans.rpath
     const config = ans.cpath + "\\" + "icon.config.json";
-    const epath = "./"+hlink.replace('\\','/')
+    const epath = "../"+hlink.replace('\\','/')
     const iconobj = {
       icon: {},
       count: count,
