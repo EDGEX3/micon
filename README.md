@@ -1,5 +1,7 @@
 # micon
 
+bulk icon,img,video impoter.⚡
+
 1 first create <filename>.mjs 
 2 copy this code and pest .mjs file
    ```js
@@ -19,3 +21,5 @@
    ```js
    linker("<icon_name>");
    ```
+   # build by edgex
+  [ @EDGEX3](https://github.com/EDGEX3)
